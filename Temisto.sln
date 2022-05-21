@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.Domain", "src\Temis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{136BE7FF-201F-437B-8E45-E96AADD4F75C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temisto.Importer.Tests", "tests\Temisto.Importer.Tests\Temisto.Importer.Tests.csproj", "{4C1FA722-FEF6-4556-BA7F-0504CEC4C46C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.Importer.Tests", "tests\Temisto.Importer.Tests\Temisto.Importer.Tests.csproj", "{4C1FA722-FEF6-4556-BA7F-0504CEC4C46C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temisto.Broker", "src\Temisto.Broker\Temisto.Broker.csproj", "{7E6A1926-742B-4960-BDE5-BB8DCDFD5647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.Broker", "src\Temisto.Broker\Temisto.Broker.csproj", "{7E6A1926-742B-4960-BDE5-BB8DCDFD5647}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
