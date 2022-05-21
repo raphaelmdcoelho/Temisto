@@ -1,0 +1,48 @@
+{
+	"users": [
+		{
+			"name": "user",
+			"password": "password",
+			"tags": "administrator"
+		}
+	],
+	"permissions": [
+		{
+			"user": "user",
+			"vhost": "/",
+			"configure": ".*",
+			"write": ".*",
+			"read": ".*"
+		}
+	],
+	"queues": [
+		{
+			"name": "importer-queue",
+			"vhost": "/",
+			"durable": true,
+			"auto_delete": false,
+			"arguments": {}
+		}
+	],
+	"exchanges": [
+		{
+			"name": "importer-exchange",
+			"vhost": "/",
+			"type": "direct",
+			"durable": true,
+			"auto_delete": false,
+			"internal": false,
+			"arguments": {}
+		}
+	],
+	"bindings": [
+		{
+			"source": "importer-exchange",
+			"vhost": "/",
+			"destination": "importer-queue",
+			"destination_type": "queue",
+			"routing_key": "",
+			"arguments": {}
+		}
+	]
+}
