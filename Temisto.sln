@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46C62DDD-0CFF-49CB-85A4-7A78DA92A34F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.App", "src\Temisto.App\Temisto.App.csproj", "{A4ED03F6-E958-4C23-977B-501172F8A16D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.Persistence", "src\Temisto.Persistence\Temisto.Persistence.csproj", "{23E5E1FE-A980-459A-B526-6DFEACB8DB4E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temisto.Importer", "src\Temisto.Importer\Temisto.Importer.csproj", "{9338D854-0EC2-43D0-BAEE-1BE33C8B85F5}"
@@ -25,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A4ED03F6-E958-4C23-977B-501172F8A16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4ED03F6-E958-4C23-977B-501172F8A16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4ED03F6-E958-4C23-977B-501172F8A16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4ED03F6-E958-4C23-977B-501172F8A16D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23E5E1FE-A980-459A-B526-6DFEACB8DB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23E5E1FE-A980-459A-B526-6DFEACB8DB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E5E1FE-A980-459A-B526-6DFEACB8DB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,7 +48,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A4ED03F6-E958-4C23-977B-501172F8A16D} = {46C62DDD-0CFF-49CB-85A4-7A78DA92A34F}
 		{23E5E1FE-A980-459A-B526-6DFEACB8DB4E} = {46C62DDD-0CFF-49CB-85A4-7A78DA92A34F}
 		{9338D854-0EC2-43D0-BAEE-1BE33C8B85F5} = {46C62DDD-0CFF-49CB-85A4-7A78DA92A34F}
 		{7CE3DFDD-7B8F-476B-8823-A28E359D0BA9} = {46C62DDD-0CFF-49CB-85A4-7A78DA92A34F}
